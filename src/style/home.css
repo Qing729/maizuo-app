@@ -1,0 +1,140 @@
+.home{
+    width: 100%;
+    background: #f2f2f2;
+}
+.swiper-container{
+    width: 100%;
+}
+.swiper-container img{
+    width: 100%;
+}
+.list{
+    padding: 0.15rem;
+    box-sizing: border-box;
+}
+.list .more-button{
+    width: 1.6rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    background: #f2f2f2;
+    border-radius: 0.15rem;
+    text-align: center;
+    line-height: 0.3rem;
+    position: relative; 
+}
+.list .more-button::after{
+    border: 1px solid #666;
+    width: 200%;
+    height: 200%;
+    content: '';
+    display: block;
+    transform: scale(0.5);
+    z-index: 1;
+    position: absolute;
+    border-radius: 0.3rem;
+    top: -50%;
+    left: -50%; 
+}
+.list li{
+    background: #fff;
+    margin-bottom: 0.15rem;
+}
+.list li img{
+    width: 100%;
+}
+.list li div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.1rem; 
+    position: relative;
+}
+.list li h4{
+    font-size: 0.12rem;
+}
+.list .hotmovie{
+    padding-bottom: 0.4rem;
+}
+.list .hotmovie li p{
+    color: #666;
+}
+.list .hotmovie li span{
+    position: absolute;
+    top: 0.15rem;
+    right: 0.1rem;
+    font-size: 0.18rem;
+    color: #f78360;
+}
+.list .soonmovie li span{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    color: #f78360;
+}
+.list .soonmovie{
+    padding: 0.4rem 0 0.15rem 0;
+}
+.list .soonmovie>span{
+    position: absolute;
+    top: -0.1rem;
+    left: 1.35rem;
+    width: 0.65rem;
+    height: 0.2rem;
+    background: #999;
+    color: #fff;
+    text-align: center;
+    line-height: 0.2rem;
+    border-radius: 0.06rem;
+    z-index: 1;
+}
+.list .soonmovie::before{
+    width: 3.6rem;
+    left: -0.15rem;
+    color: #666;
+}
+.detail img{
+    width: 100%;
+}
+.detail .film_info{
+    box-sizing: border-box;
+    padding: 0.15rem 0.15rem 0.6rem;
+}
+.detail .film_info h3{
+    font-size: 0.14rem;
+    line-height: 0.18rem;
+    margin-bottom: 0.15rem;
+    position: relative;
+}
+.detail .film_info h3 span{
+    position: absolute;
+    top: 0;
+    left: -0.15rem;
+    width: 0.12rem;
+    height: 0.18rem;
+    background: #e9d1c8;
+}
+.detail .film_info p{
+    width: 100%;
+    margin-bottom: 0.1rem;
+    line-height: 0.18rem;
+}
+.pre{
+    white-space: pre;
+    overflow: hidden;
+}
+.buyBtn{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0.2rem;
+}
+.buyBtn button{
+    border: 0;
+    outline: none;
+    background: #fe8233;
+    color: #fff;
+    font-size: 0.14rem;
+    width: 1.56rem;
+    height: 0.36rem;
+    border-radius: 0.18rem;
+}

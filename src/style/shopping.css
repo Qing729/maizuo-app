@@ -1,0 +1,123 @@
+.shopping .menu{
+    width: 100%;
+    background: #fff;
+    padding: 0.18rem 0;
+}
+.shopping .menu li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 0.06rem 0;
+}
+.shopping .menu li img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    margin-bottom: 0.05rem;
+}
+.shopping .prefecture{
+    background: #fff;
+    width: 100%;
+    margin-top: 0.07rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.shopping .prefecture h4{
+    text-align: center;
+    font-size: 0.14rem;
+}
+.shopping .prefecture>div{
+    width: 100%;
+    padding-top: 0.1rem;
+}
+.shopping .prefecture .left{
+    float: left;
+    width: 50%;
+}
+.shopping .prefecture .left img{
+   width: 1.675rem;
+   float: left;
+}
+.shopping .prefecture .right{
+    float: left;
+    width: 50%;
+}
+.shopping .prefecture .right img{
+    width: 1.675rem;
+    float: right;
+}
+.shopping .prefecture .right img:nth-of-type(1){
+    margin-bottom: 0.05rem;
+}
+.shopping .commodity>div{
+    background: #fff;
+    width: 100%;
+    margin-top: 0.07rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.shopping .commodity .commodityban img{
+    width: 3.4rem;
+}
+.shopping .commodity ul{
+    margin-top: 0.05rem;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+.shopping .commodity ul li{
+    flex: none;
+    width: 1.02rem;
+}
+.shopping .commodity ul li img{
+    width: 0.85rem;
+}
+.shopping .commodity ul li h5{
+    line-height: 0.28rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.shopping .commodity ul li p{
+    color: #ff6640;
+    font-size: 0.13rem;
+}
+.shopping .goods{
+    width: 100%;
+    padding: 0.1rem;
+}
+.shopping .goods h4{
+    text-align: center;
+    font-size: 0.14rem;
+    margin-bottom: 0.1rem; 
+}
+.shopping .goods ul{
+    width: 3.7rem;
+}
+.shopping .goods ul li{
+    float: left;
+    width: 1.675rem;
+    height: 2.34rem;
+    background: #fff;
+    margin:0 0.05rem 0.1rem 0;
+}
+.shopping .goods ul li img{
+    width: 1.675rem;
+}
+.shopping .goods ul li h5{
+    padding: 0 0.05rem;
+    height: 0.34rem;
+    font-size: 0.12rem;
+}
+.shopping .goods ul li p{
+    padding: 0.02rem 0.05rem;
+}
+.shopping .goods ul li p b{
+    color: #ff6640;
+    font-size: 0.13rem;
+}
+.shopping .goods ul li p span{
+    color: #ccc;
+    margin-left: 0.15rem;
+}

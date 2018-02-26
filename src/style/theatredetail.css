@@ -1,0 +1,87 @@
+.theatredetail .cinema_banner{
+    background: #38403e;
+    height: 1.42rem;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+}
+.theatredetail .cinema_banner .swiper-slide{
+    width: 0.87rem;
+}
+.theatredetail .cinema_banner img{
+    width: 0.67rem;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    opacity: 0.4;
+}
+.theatredetail .cinema_banner p{
+    text-align: center;
+    color: #fff;
+    margin: 0.1rem -0.2rem;
+    display: none;
+}
+.theatredetail .cinema_banner .swiper-slide-active img{
+    opacity: 1;
+}
+.theatredetail .cinema_banner .swiper-slide-active p{
+    display: block;
+}
+.theatredetail .film_time{
+    width: 100%;
+    background: #fff;
+    min-height: 4.48rem;
+}
+.theatredetail .film_time .t_nav{
+    width: 100%;
+    /* overflow-x: auto;
+    overflow-y: hidden;
+    display: flex; */
+    height: 44px;
+    border-bottom: 1px solid #e9681f;
+} 
+/* .theatredetail .film_time .t_nav li{
+    flex: none;
+} */
+.theatredetail .film_time .t_nav li a{
+    display: block;
+    width: 1.2rem;
+    flex: none;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+    line-height: 40px;
+    text-align: center;
+}
+.theatredetail .film_time .t_nav li a.active{
+    border-bottom-color: #e9681f;
+}
+.theatredetail .film_time .t_list{
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.theatredetail .film_time .t_list li{
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.theatredetail .film_time .t_list li::after{
+    border-bottom-style: dashed;
+}
+.theatredetail .film_time .t_list li p:nth-of-type(1){
+    font-size: 0.16rem;
+}
+.theatredetail .film_time .t_list li p:nth-of-type(1) span{
+    color: #e9681f;
+    float: right;
+    margin-right: 0.15rem;
+}
+.theatredetail .film_time .t_list li p s{
+    color: #999;
+    float: right;
+    margin-right: 0.15rem;
+}
+.theatredetail .film_time .t_list li i{
+    position: absolute;
+    right: 0;
+    top: 0.2rem;
+    color: #999;
+}

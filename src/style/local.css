@@ -1,0 +1,24 @@
+.local{
+    width: 100%;
+}
+.local h4{
+    background: #ebebeb;
+    line-height: 0.4rem;
+    padding-left: 0.15rem;
+    font-size: 0.14rem;
+}
+.local ul{
+    width: 100%;
+    background: #fff;
+}
+.local ul li{
+    width: 25%;
+    line-height: 0.46rem;
+    font-size: 0.16rem;
+    text-align: center;
+    color: #838383;
+    display: inline-block;
+}
+.mylocation ul li{
+    color: #e2941a;
+}

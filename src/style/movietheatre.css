@@ -1,0 +1,49 @@
+.cinema{
+    width: 100%;
+    background: #fff;
+}
+.cinema h4{
+    height: 0.4rem;
+    background: #e1e1e1;
+    font-size: 0.14rem;
+    line-height: 0.4rem;
+    padding-left: 0.16rem;
+    color: #636363;
+    margin-bottom: 0.01rem; 
+}
+.cinema li{
+    width: 100%;
+    padding: 0.1rem 0.15rem;
+    box-sizing: border-box;
+}
+.cinema li h5{
+    font-size: 0.14rem;
+    line-height: 0.34rem;
+    color: #636363;
+}
+.cinema li h5 span{
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cinema li h5 i{
+    font-size: 0.12;
+    color: #ccc;
+    float: right;
+}
+.cinema li p{
+    line-height: 0.24rem;
+    color: #ccc;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.labels span{
+    background: #51add0;
+    padding: 0.02rem 0.05rem;
+    color: #fff;
+    margin-left: 0.05rem;
+    border-radius: 0.04rem;
+}

@@ -1,0 +1,68 @@
+.cards{
+    width: 100%;
+    height: 5.9rem;
+    background: #fcfcfc;
+}
+.cardnav{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border-bottom: 1px solid #fe6e00;
+}
+.cardnav li{
+    width: 50%;
+    height: 100%;
+    font-size: 0.16rem;
+    float: left;
+    text-align: center;
+    line-height: 42px;
+    color: #666;
+    border-bottom: 3px solid #fff;
+    box-sizing: border-box;
+}
+.cardnav li.choose{
+    color: #fe6e00;
+    border-bottom-color: #fe6e00;
+}
+.card{
+    width: 100%;
+    text-align: center;
+}
+.card p{
+    margin-top: 0.3rem; 
+    position: relative;
+    line-height: 0.34rem;
+    font-size: 0.14rem; 
+}
+.card input{
+    width: 2.4rem;
+    height: 0.34rem;
+    border: 0;
+    background: #fcfcfc;
+    box-sizing: border-box;
+    padding-left: 0.15rem;
+    outline: none;
+}
+.card p::after{
+    content: '';
+    display: block;
+    width: 5.9rem;
+    height: 0.24rem;
+    border: 1px solid #999;
+    position: absolute;
+    top: 0.14rem;
+    left: -1.15rem;
+    transform: scale(0.5);
+    border-top: 0;
+}
+.card button{
+    width: 1.63rem;
+    height: 0.38rem;
+    color: #fff;
+    font-size: 0.14rem;
+    border-radius: 0.19rem;
+    background: #fe8233;
+    border: 0;
+    outline: none;
+    margin-top: 0.6rem;  
+}

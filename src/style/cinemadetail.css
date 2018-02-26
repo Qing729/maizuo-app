@@ -1,0 +1,47 @@
+.cinemadetail{
+    width: 100%;
+}
+.cinemadetail .cinema_ban img{
+    width: 100%;
+}
+.cinemadetail .cinema_menu{
+    width: 100%;
+    background: #f9f9f9;
+}
+.cinemadetail .cinema_menu li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.25rem 0.17rem 0;
+}
+.cinemadetail .cinema_menu li h4{
+    font-size: 0.15rem;
+}
+.cinemadetail .cinema_menu li p{
+    line-height: 0.32rem;
+    color: #999;
+}
+.cinemadetail .cinema_menu li div{
+    position: relative;
+    width: 100%;
+    padding: 0.1rem 0 0.25rem;
+}
+.cinemadetail .cinema_menu li button{
+    position: absolute;
+    border: 0;
+    outline: none;
+    width: 0.94rem;
+    height: 0.34rem;
+    border-radius: 0.17rem;
+    top: 0;
+    right: 0;
+}
+.cinemadetail .cinema_menu li .seat{
+    background: #fe8233;
+    color: #fff;
+    font-size: 0.14rem;
+}
+.cinemadetail .cinema_menu li .ticket{
+    background: #f9f9f9;
+    color: #fe8233;
+    border: 1px solid #fe8233;
+}

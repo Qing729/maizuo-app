@@ -1,0 +1,53 @@
+.movie{
+    width: 100%;
+    padding: 0 0.15rem;
+    box-sizing: border-box;
+}
+.film li{
+    width: 3.3rem;
+    height: 1.25rem;
+    box-sizing: border-box;
+    padding: 0.2rem 0;
+    display: flex;
+}
+.film li::after{
+    border-bottom-style: dashed;
+    border-bottom-color: #666;
+}
+.film li img{
+    width: 0.6rem;
+    margin-right: 0.15rem;
+}
+.film li div{
+    flex: 1;
+    line-height: 0.28rem;
+}
+.film li div h4{
+    width: 100%;
+    font-size: 0.16rem;
+    position: relative;
+}
+.film li div h4 span{
+    color: #f78360;
+    float: right;
+    margin-right: 0.15rem;
+}
+.film li div p{
+    color: #999;  
+}
+.film li div p span{
+    margin-right: 0.2rem;
+}
+.film li div p b{
+    color: #8aa2bf;
+}
+.film li h4 .icon-right{
+    position: absolute;
+    color: #ccc;
+    font-size: 0.12rem;
+    top: 0;
+    right: 0;
+}
+.soonList p span{
+    color: #f78360;
+}
